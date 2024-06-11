@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xslt"?>
+
+<!DOCTYPE bookstore[
+<!ELEMENT bookstore (book+)>
+<!ELEMENT book (title,author+,genre+,year,price)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+]>
+
+<bookstore>
+    <book>
+        <title>The Great Gatsby</title>
+        <author>F. Scott Fitzgerald</author>
+        <genre>Fiction</genre>
+        <year>1925</year>
+        <price>16.16</price>
+    </book>
+    <book>
+        <title>Harry Potter</title>
+        <author>J.K. Rowling</author>
+        <genre>Fiction</genre>
+        <year>2005</year>
+        <price>29.99</price>
+    </book>
+    <book>
+        <title>XQuery Kick Start</title>
+        <author>Vaidyanathan Nagarajan</author>
+        <genre>Education</genre>
+        <year>2003</year>
+        <price>49.99</price>
+    </book>
+    <book>
+        <title>Out Of My Mind</title>
+        <author>Sharon M. Draper</author>
+        <genre>Young Adult, Fiction</genre>
+        <year>2010</year>
+        <price>10.99</price>
+    </book>
+    <book>
+        <title>Great Expectations</title>
+        <author>Charles Dickens</author>
+        <genre>Fiction, Classic</genre>
+        <year>1861</year>
+        <price>12.99</price>
+    </book>
+    <book>
+        <title>Book Thief</title>
+        <author>Markus Zusak</author>
+        <genre>Fiction, Historical</genre>
+        <year>2005</year>
+        <price>14.99</price>
+    </book>
+    <book>
+        <title>Harry Potter and The Cursed Child</title>
+        <author>J.K. Rowling, John Tiffany, Jack Thorne</author>
+        <genre>Fantasy, Drama</genre>
+        <year>2016</year>
+        <price>19.99</price>
+    </book>
+    <book>
+        <title>Charlotte’s Web</title>
+        <author>E.B. White</author>
+        <genre>Children's, Fiction</genre>
+        <year>1952</year>
+        <price>8.99</price>
+    </book>
+    <book>
+        <title>Romeo and Juliet</title>
+        <author>William Shakespeare</author>
+        <genre>Tragedy, Drama</genre>
+        <year>1597</year>
+        <price>5.00</price>
+    </book>
+    <book>
+        <title>Hamlet</title>
+        <author>William Shakespeare</author>
+        <genre>Tragedy, Drama</genre>
+        <year>1603</year>
+        <price>7.00</price>
+    </book>
+    <book>
+        <title>Macbeth</title>
+        <author>William Shakespeare</author>
+        <genre>Tragedy, Drama</genre>
+        <year>1606</year>
+        <price>6.00</price>
+    </book>
+    <book>
+        <title>If You Could See the Sun</title>
+        <author>Ann Liang</author>
+        <genre>Fantasy, Romance, Fiction</genre>
+        <year>2022</year>
+        <price>16.99</price>
+    </book>
+    <book>
+        <title>The Five People You Meet In Heaven</title>
+        <author>Mitch Albom</author>
+        <genre>Fiction</genre>
+        <year>2003</year>
+        <price>15.99</price>
+    </book>
+    <book>
+        <title>Tuesdays with Morrie</title>
+        <author>Mitch Albom</author>
+        <genre>Biography, Memoir</genre>
+        <year>1997</year>
+        <price>13.99</price>
+    </book>
+    <book>
+        <title>The Fear</title>
+        <author>Natasha Preston</author>
+        <genre>Thriller, Mystery</genre>
+        <year>2022</year>
+        <price>8.99</price>
+    </book>
+    <book>
+        <title>Before the Coffee Gets Cold</title>
+        <author>Toshikazu Kawaguchi</author>
+        <genre>Fiction, Fantasy</genre>
+        <year>2015</year>
+        <price>11.99</price>
+    </book>
+    <book>
+        <title>Flowers For Algernon</title>
+        <author>Daniel Keyes</author>
+        <genre>Science Fiction</genre>
+        <year>1966</year>
+        <price>9.99</price>
+    </book>
+    <book>
+        <title>Murder on the Orient Express</title>
+        <author>Agatha Christie</author>
+        <genre>Mystery, Fiction</genre>
+        <year>1934</year>
+        <price>7.99</price>
+    </book>
+    <book>
+        <title>The Fault in Our Stars</title>
+        <author>John Green</author>
+        <genre>Romace</genre>
+        <year>2012</year>
+        <price>6.99</price>
+    </book>
+    <book>
+        <title>The Invisible Man</title>
+        <author>H.G. Wells</author>
+        <genre>Science Fiction</genre>
+        <year>1897</year>
+        <price>5.99</price>
+    </book>
+    <book>
+        <title>How I Taught My Grandmother To Read</title>
+        <author>Sudha Murthy</author>
+        <genre>Biography, Memoir</genre>
+        <year>2004</year>
+        <price>11.99</price>
+    </book>
+    <book>
+        <title>Hidden Pictures</title>
+        <author>Andre  Kuipers</author>
+        <genre>Non-fiction, Photography</genre>
+        <year>2012</year>
+        <price>29.99</price>
+    </book>
+    <book>
+        <title>I, Robot</title>
+        <author>Isaac Asimov</author>
+        <genre>Science Fiction</genre>
+        <year>1950</year>
+        <price>6.99</price>
+    </book>
+    <book>
+        <title>A Brief History of Time</title>
+        <author>Stephen Hawking</author>
+        <genre>Non-fiction, Science</genre>
+        <year>1988</year>
+        <price>14.99</price>
+    </book>
+    <book>
+        <title>A Wrinkle in Time</title>
+        <author>Madeleine L'Engle</author>
+        <genre>Science Fiction, Fantasy</genre>
+        <year>1962</year>
+        <price>8.99</price>
+    </book>
+    <book>
+        <title>A Brief History of Black Holes</title>
+        <author>Stephen Hawking</author>
+        <genre>Non-fiction, Science</genre>
+        <year>2016</year>
+        <price>17.99</price>
+	</book>
+	
+    <book>
+        <title>The Red Pyramid</title>
+        <author>Rick Riordan</author>
+        <genre>Fantasy, Mythology</genre>
+        <year>2010</year>
+        <price>11.99</price>
+    </book>
+    <book>
+        <title>Percy Jackson and the Lightning Thief</title>
+        <author>Rick Riordan</author>
+        <genre>Fantasy, Mythology</genre>
+        <year>2005</year>
+        <price>8.99</price>
+    </book>
+    <book>
+        <title>American Prometheus</title>
+        <author>Kai Bird, Martin J. Sherwin</author>
+        <genre>Biography, History</genre>
+        <year>2005</year>
+        <price>16.99</price>
+    </book>
+    <book>
+        <title>Life of Pi</title>
+        <author>Yann Martel</author>
+        <genre>Fiction, Adventure</genre>
+        <year>2001</year>
+        <price>12.99</price>
+    </book>
+    <book>
+        <title>The Jungle Book</title>
+        <author>Rudyard Kipling</author>
+        <genre>Fiction, Children's</genre>
+        <year>1894</year>
+        <price>7.99</price>
+    </book>
+    <book>
+        <title>Malgudi Das</title>
+        <author>R.K. Narayan</author>
+        <genre>Fiction, Short Stories</genre>
+        <year>1943</year>
+        <price>6.99</price>
+    </book>
+    <book>
+        <title>The Little Prince</title>
+        <author>Antoine de Saint-Exupéry</author>
+        <genre>Fiction, Fantasy</genre>
+        <year>1943</year>
+        <price>9.99</price>
+    </book>
+    <book>
+        <title>One Of Us Is Lying</title>
+        <author>Karen M. McManus</author>
+        <genre>Fiction, Mystery</genre>
+        <year>2017</year>
+        <price>14.99</price>
+    </book>
+    <book>
+        <title>They Both Die At The End</title>
+        <author>Adam Silvera</author>
+        <genre>Young Adult, Fiction</genre>
+        <year>2017</year>
+        <price>13.99</price>
+    </book>
+    <book>
+        <title>Hunger Games</title>
+        <author>Suzanne Collins</author>
+        <genre>Fiction, Science Fiction</genre>
+        <year>2008</year>
+        <price>11.99</price>
+    </book>
+    <book>
+        <title>The Chronicles of narnia</title>
+        <author>C. S. Lewis, Sinclair Lewis, Clive Staples Lewis</author>
+        <genre>Fantasy</genre>
+        <year>1950</year>
+        <price>5.99</price>
+    </book>
+    <book>
+        <title>Grimms Fairytales</title>
+        <author>Jacob Grimm, Wilhelm Grimm</author>
+        <genre>Fiction, Fairy Tale</genre>
+        <year>1812</year>
+        <price>7.99</price>
+    </book>
+    <book>
+        <title>The Lord Of The Rings</title>
+        <author>J.R.R. Tolkien</author>
+        <genre>Fantasy, Adventure</genre>
+        <year>1954</year>
+        <price>19.99</price>
+    </book>
+    <book>
+        <title>The Hobbit</title>
+        <author>J.R.R. Tolkien</author>
+        <genre>Fantasy, Adventure</genre>
+        <year>1937</year>
+        <price>15.99</price>
+    </book>
+    <book>
+        <title>The Alchemist</title>
+        <author>Paulo Coelho</author>
+        <genre>Fiction, Inspirational</genre>
+        <year>1988</year>
+        <price>9.99</price>
+    </book>
+    <book>
+        <title>Atomic Habits</title>
+        <author>James Clear</author>
+        <genre>Self-help, Psychology</genre>
+        <year>2018</year>
+        <price>14.99</price>
+    </book>
+    <book>
+        <title>The Diary Of A Young Girl</title>
+        <author>Anne Frank</author>
+        <genre>Biography, Memoir</genre>
+        <year>1947</year>
+        <price>10.99</price>
+    </book>
+</bookstore>
